@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:textSize="80dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back2"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User-Name"
+        android:id="@+id/userId"
+        android:textSize="32dp"
+        android:textColor="#FFF8DC"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/userPassword"
+        android:textSize="32dp"
+        android:textColor="#FFF8DC"
+        android:layout_marginTop="25dp"
+        android:inputType="textPassword"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:background="#00FFFF"
+            android:textColor="#FF0000"
+            android:id="@+id/login"/>
+
+
+
+</LinearLayout>
